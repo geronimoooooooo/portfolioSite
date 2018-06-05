@@ -1,2 +1,2 @@
 # portfolioSite
-local2
+Udacity project.
