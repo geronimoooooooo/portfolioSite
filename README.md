@@ -1,2 +1,2 @@
 # portfolioSite
-Portfolio site project für udacity
+Portfolio site project für udacity.
