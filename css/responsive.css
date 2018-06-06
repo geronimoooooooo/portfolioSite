@@ -29,7 +29,7 @@
 }
 
 /* Extra small devices (phones, 599px and down) */
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 599px) {
 .container_body {
     display: inline-block;
     width: 100%;
@@ -70,9 +70,17 @@
     margin-bottom: 0.2em;
     text-align: center;
 }
+
 .featured_work_item_title {    
     text-align: center;
     font-size: 1.5em;    
+}
+
+.img-logo-scale {
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    max-height: 80px;
 }
 } 
 
@@ -87,4 +95,13 @@
         margin-bottom: 0.2em;
         text-align: center;
     }    
+    
+    .header_subtitle {
+        font-weight: 300;
+        font-size: 1.2em;
+        float: right;       
+        color: #7d97ad; 
+        clear: both;
+        margin: 0.5em 0.5em;     
+    }
 } 
