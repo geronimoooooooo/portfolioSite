@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,41 +14,76 @@
 	<title>Udacity Portfolio</title>
 </head>
 
-<body >
-<div class="container_body">
-
-	<header class="header">
-		<div class="">
-			<img src="img/Udacity_logo.png" alt="Udacity_logo" title="Udacity logo">
-			<div class="inline_show header_title">JANE DOE</div>
-			<div class="inline_show header_subtitle">FRONT-END NINJA</div>
-		</div>
-	</header>
-	<div>
+<body>
+	<div class="container_body">		
+		<!--START HEADER-->
+		<header class="header">
+			<div class="">
+				<img src="img/Udacity_logo.png" alt="Udacity_logo" title="Udacity logo">
+				<div class="inline_show header_title">JANE DOE</div>
+				<div class="inline_show header_subtitle">FRONT-END NINJA</div>
+			</div>
+		</header>
+		<div>
 			<hr class="hr_div">
-	</div>
+		</div>
 
-	<main>
-		<section>
-			<article>
-				<img src="img/code_big.png" alt="code_big" title="code big">
-			</article>
-		</section>
-		<div>Featured Work</div>
-		<section id="sec_featured_work" class="container_featured_work">
+		<!--START MAIN-->
+		<main>
+			<section>
+				<article>
+					<img srcset="img/code_big.png 1200w, img/code_medium.png 500w" sizes="(min-width: 1200px) 100vw, 30vw" src="img/code_medium.png"
+					 class="img_main_responsive" alt="code_big">
+				</article>
+			</section>
+			<div class="featured_work_header">
+				<h1>Featured Work</h1>
+			</div>
+			<!--
+		<div class="row">
+		<section id="sec_featured_work" class="container_featured_work one">
 			<div class="uno box_featured_work">
-				a
+				<img src="img/img1.jpg" class="img_featured_work_responsive" alt="img1" title="project 1">
+				<h2 class="featured_work_title"><a class="one" href="#">Project 1</a></h2>
 			</div>
 			<div class="due box_featured_work">
-				b
+					<img src="img/img2.jpg" class="img_featured_work_responsive" alt="img2" title="project 2">
+					<h2 class="featured_work_title"><a class="one" href="#">Project 2</a></h2>
 			</div>
 			<div class="tri box_featured_work">
-				c
+					<img src="img/img3.jpeg" class="img_featured_work_responsive" alt="img3" title="project 3">
+					<h2 class="featured_work_title"><a class="one" href="#">Project 3</a></h2>
 			</div>
 		</section>
-	</main>
-	<footer></footer>
-</div>
-</body>
+	</div>
+-->
+			<section class="parent">
+				<div class="item">
+					<img src="img/img1.jpg" class="img_featured_work_responsive" alt="img1" title="project 1">
+					<h2 class="featured_work_item_title">
+						<a class="one" href="#">Project 1</a>
+					</h2>
+				</div>
+				<div class="item">
+					<img src="img/img2.jpg" class="img_featured_work_responsive" alt="img2" title="project 2">
+					<h2 class="featured_work_item_title">
+						<a class="one" href="#">Project 2</a>
+					</h2>
+				</div>
+				<div class="item">
+					<img src="img/img3.jpeg" class="img_featured_work_responsive" alt="img3" title="project 3">
+					<h2 class="featured_work_item_title">
+						<a class="one" href="#">Project 3</a>
+					</h2>
+				</section>
+			</div>
+		</main>
 
+		<!--START OF FOOTER-->
+		<footer class="footer_my">
+			<p>© 2018 Simo</p>
+		</footer>
+		<!--END OF FOOTER-->
+	</div>
+</body>
 </html>
